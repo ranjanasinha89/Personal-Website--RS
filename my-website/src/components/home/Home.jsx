@@ -7,8 +7,11 @@ class Home extends Component {
     var whiteColor = {
       color: "white"
     };
-    var offWhiteColor = {
-      color: "#e8eff4"
+    var infoStyle = {
+      color: "#e8eff4",
+      borderStyle: "solid",
+      borderWidth: "2px",
+      borderColor: "#298a8a"
     };
     return (
       <div className="background">
@@ -20,13 +23,34 @@ class Home extends Component {
             yellow taxi can be seen in the background."
           />
           <h1 style={whiteColor}>Ranjana Sinha</h1>
-          <h5 style={offWhiteColor}>
-            Originally from Kolkata, India. Love to travel and click photos.
-          </h5>
-          <Link to="/career">Career &nbsp;</Link>
-          <Link to="/photo">Photography &nbsp;</Link>
-          <Link to="/">Blog &nbsp;</Link>
-          <Link to="/">Contact Me</Link>
+          <div style={infoStyle}>
+            <p>
+              Hi, I'm Ranjana, orginally from Kolkata, India. I'm a software
+              engineer by profession. I just completed my Masters Degree in
+              Computer science after 5 years working in the IT industry. In my
+              free time, I like to travel to new places, click photos, eat good
+              food and enjoy life as it comes. I love museums, old cities and
+              architecture. I enjoy good movies(awesome if it's a detective
+              thriller), good books (I read almost everything, being a bengali I
+              have a soft spot for Bengali Literature) and music.
+              <br /> I have a pet cat "Mao-chi", whom I rescued from the streets
+              last year. He is the calmest cat in the wole wide world and is a
+              big part of my life. Spending time with "Mao-chi" works as a
+              stress-buster.
+            </p>
+          </div>
+          <br />
+          <button class="btn btn-info m-2">
+            <Link to="/career">Career &nbsp;</Link>
+          </button>
+          <button class="btn btn-info m-2">
+            {" "}
+            <Link to="/photo">Photography &nbsp;</Link>
+          </button>
+
+          <button class="btn btn-info m-2">
+            <Link to="/contact">Contact Me</Link>
+          </button>
         </div>
       </div>
     );

@@ -87,8 +87,13 @@ class PhotographyView extends Component {
   };
 
   render() {
+    var headerStyle = {
+      color: "white",
+      textAlign: "center"
+    };
     return (
       <React.Fragment>
+        <h2 style={headerStyle}>Portfolio</h2>
         <div className="card-columns">
           {this.state.photos.map(photo => (
             <div key={photo.id} className="card bg-info text-white m-2">

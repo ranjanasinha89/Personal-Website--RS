@@ -46,6 +46,9 @@ code {
 .home-image {
   width: 50vh;
   height: 50vh;
+  border-style: solid;
+  border-color: rgb(201, 197, 197);
+  border-width: 5px;
 }
 
 .career-image {
