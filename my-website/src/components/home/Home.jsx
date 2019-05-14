@@ -24,7 +24,7 @@ class Home extends Component {
             Originally from Kolkata, India. Love to travel and click photos.
           </h5>
           <Link to="/career">Career &nbsp;</Link>
-          <Link to="/">Photography &nbsp;</Link>
+          <Link to="/photo">Photography &nbsp;</Link>
           <Link to="/">Blog &nbsp;</Link>
           <Link to="/">Contact Me</Link>
         </div>
