@@ -2,13 +2,22 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.4.1",
+    "node": "8.10.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-brands-svg-icons": "^5.8.2",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
     "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
     "i": "^0.3.6",
+    "nodemailer": "^6.1.1",
     "npm": "^6.9.0",
     "pigeon-maps": "^0.13.0",
     "pigeon-marker": "^0.3.4",
